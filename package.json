@@ -1,0 +1,19 @@
+{
+  "name": "av-test-github-package",
+  "version": "0.0.1",
+  "description": "A dumb package meant to do nothing much",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Antra Verma",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url":"git+https://github.com/mis-coder/test-github-package-code.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@mis-coder"
+  }
+}
